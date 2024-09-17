@@ -11,7 +11,7 @@ The distance_halo() functions works by calculating the distance for every pixel 
 Suggested steps( There is more than one way to solve this.)
 
 1. Calculate the distance for each pixel to the pixel at (targetX, targetY) using the Pythagorean Theorem (a2 + b2 = c2). One will need to use the math.sqrt() function(https://www.tutorialspoint.com/python/number_sqrt.htm ).
-![Pythagorean Theorem](distance_formula_pythagoras.gif)
+![Pythagorean Theorem](images/distance_formula_pythagoras.gif)
 2. Divide the distance by the modifier.
 3. Calculate each pixel's new R,G, B values by subtracting the quotient.
  
